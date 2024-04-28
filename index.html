@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Major Cinema</title>
+  <!-- Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- Style -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaquery.css">
@@ -188,9 +191,17 @@
   </footer>
 
   <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="module" src="src/pages/index.js"></script>
 
-  
+  <script>
+    AOS.init({
+      duration: 1000
+    })
+  </script>
+
+
 </body>
 
 </html>
